@@ -3,8 +3,8 @@ kind: Gateway
 metadata:
   name: paradox-gateway
 spec:
-  gatewayClassName: envoy
+  gatewayClassName: envoy-gateway
   listeners:
   - name: http
     protocol: HTTP
-    port: 8080
+    port: 81
